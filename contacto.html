@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Maquetacion</title>
+</head>
+<body>
+
+    
+<body id="contenedor">
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <h1>
+                    utn-ba
+                </h1>
+            </a>
+
+        </div>
+    </header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="noticia1.html">Noticia1</a>
+                </li>
+                <li>
+                    <a href="noticia2.html">Noticia2</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+
+        </nav>
+   
+
+
+    <main>
+       
+        <section id="portada">
+           <div class="destacado">
+            <a href="index.html">Inicio</a>Contacto</div>
+
+            <form action="mailto:mail@gmail.com" id="formContacto">
+                <div>
+                    <label> Nombre:</label>
+                    <input type="text" name="nombre" required placeholder="Escriba su nombre">
+                </div>
+                <div>
+                    <label>Localidad:</label>
+                    <select name="localidad" id="" required>
+                        <option value="">Seleccione...</option>
+                        <option value="caba">CABA</option>
+                        <option value="lanus">LANUS</option>
+                        <option value="mdq">MARDELPLATA</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Comentario:</label>
+                    <textarea name="comentario" id="" cols="20" rows="5" required></textarea>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="newsletter" checked value="true" class="check">
+                        Quiero suscribirme al sitio
+                    </label>
+                </div>
+
+                <div>
+                    <input type="submit" value="Escribinos!" class="btn-envio">
+                </div>
+            </form>
+
+
+        </section>
+
+        <aside class="sidebar-der">
+                <span>insertar banner</span>
+        </aside>
+
+        <footer class="footer">
+            <p>&copy; 2021 - Derechos reservadors</p>
+            <p>Desarrollado por Paula</p>
+        </footer>
+    
+
+
+    </main>
+    
+</body>
+</html>

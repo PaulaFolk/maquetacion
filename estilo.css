@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#contenedor{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: rgb(77, 77, 152);
+       margin-top: 10px;
+       font-family: Arial, Helvetica, sans-serif ;
+    color: white;
+    height: 60px;
+    margin-bottom: 10px;
+ }
+
+.logo{
+    text-transform: uppercase;
+    text-decoration: white;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul{
+    list-style-type: none;
+    text-align: right;
+    text-decoration: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display:inline-flexbox;
+    background-color: blue;
+    color: wheat;
+}
+
+.navbar ul li a:hover{
+    background-color: gray;
+}
+
+#portada{
+    width: 80%;
+    background-color: gray;
+    padding: 1.6em;
+    float: left;
+    box-sizing: border-box;
+}
+
+.destacado{
+    background: white;
+    padding: 2%;
+    margin-bottom:0.6em;
+}
+
+.default{
+    padding: 2%;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+.sidebar-der{
+    width: 20%;
+    background-color: gray;
+    float: right;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+}
+
+#formContacto{
+    padding: 10px;
+    background-color: brown;
+    border-radius: 15px;
+    
+}
+
+#formContacto input, #formContacto select, #formContacto textarea{
+    width: 100%;
+    padding: 0.8em;
+    box-sizing: border-box;
+}
+
+#formContacto input[type="checkbox"]{
+    width:auto;
+}
+#formContacto input[type="submit"]{
+    width:20%;
+}
+
+.notasola{
+    width: 80%;
+    background:rgb(30, 147, 214);
+    padding:1em;
+    }
+
+.notasola figure img{
+    width: 80%;
+}
